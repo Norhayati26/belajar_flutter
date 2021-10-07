@@ -35,6 +35,16 @@ class Home extends StatelessWidget{
           )
         ]
       ),
+      body: Container(
+        color: Colors.blue,
+        margin: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+        padding: EdgeInsets.all(30),
+        child: Icon(
+          Icons.home, 
+          color: Colors.red, 
+          size: 100.78,
+          ),
+      ),
     );
   }
 }
